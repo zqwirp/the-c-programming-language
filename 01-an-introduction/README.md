@@ -28,4 +28,4 @@ Write a program that prints a table of Fahrenheit temperatures and their Celsius
 
 ## Lorem Ipsum
 
-lorem ipsum dolor
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus ipsum, egestas vel elit et, euismod consequat purus. Pellentesque ultricies justo et scelerisque fermentum. Vivamus ultricies risus non magna elementum, eget malesuada orci fringilla. Phasellus eu turpis quis magna varius ullamcorper a a orci. Mauris bibendum et tellus laoreet mattis. Proin et eros suscipit, convallis ante sed, consequat elit. Nunc vestibulum, odio vitae elementum blandit, enim augue semper odio, at vestibulum felis dolor consectetur justo. Mauris in enim ante. Sed consequat ullamcorper urna, et eleifend elit commodo et. In lacinia nisl ipsum, in facilisis nunc condimentum ac. Nullam sit amet libero leo. Nam fringilla turpis massa, vitae vestibulum lorem dapibus sit amet. Vivamus ac ultricies nibh. Nam vitae blandit odio, nec fermentum elit. Donec ac leo ut ligula interdum egestas vel quis mi.
