@@ -20,11 +20,14 @@ Write a program that prints a table of Fahrenheit temperatures and their Celsius
 >next input character from a text stream and returns that as its value. That is, after
 >
 >```c
->c = getchar();
+>c = getchar(); // read a character
+>putchar(c); // print the character
 >```
 >
 >the variable c contains the next character of input. The characters normally come from the
 >keyboard; input from files is discussed in [Chapter 7](https://kremlin.cc/k&r.pdf).
+
+Example: [file_copy.c](file_copy.c)
 
 ## Lorem Ipsum
 
