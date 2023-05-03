@@ -29,6 +29,13 @@ Write a program that prints a table of Fahrenheit temperatures and their Celsius
 
 Example: [file_copy.c](file_copy.c)
 
+Here is a link to a resource that provides a brief explanation of why the type of 'c' is 'int' rather than 'char':
+
+- [https://stackoverflow.com/questions/7119470/int-c-getchar?noredirect=1&lq=1](https://stackoverflow.com/questions/7119470/int-c-getchar?noredirect=1&lq=1)
+- [https://stackoverflow.com/questions/32720934/confusion-about-int-char-and-eof-in-c](https://stackoverflow.com/questions/32720934/confusion-about-int-char-and-eof-in-c)
+- [https://stackoverflow.com/questions/8464030/using-int-for-character-types-when-comparing-with-eof?noredirect=1&lq=1](https://stackoverflow.com/questions/8464030/using-int-for-character-types-when-comparing-with-eof?noredirect=1&lq=1)
+- [https://stackoverflow.com/questions/8932582/how-can-i-generate-an-eof-or-an-ascii-0-in-a-visual-studio-debug-console](https://stackoverflow.com/questions/8932582/how-can-i-generate-an-eof-or-an-ascii-0-in-a-visual-studio-debug-console)
+
 ## Lorem Ipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus ipsum, egestas vel elit et, euismod consequat purus. Pellentesque ultricies justo et scelerisque fermentum. Vivamus ultricies risus non magna elementum, eget malesuada orci fringilla. Phasellus eu turpis quis magna varius ullamcorper a a orci. Mauris bibendum et tellus laoreet mattis. Proin et eros suscipit, convallis ante sed, consequat elit. Nunc vestibulum, odio vitae elementum blandit, enim augue semper odio, at vestibulum felis dolor consectetur justo. Mauris in enim ante. Sed consequat ullamcorper urna, et eleifend elit commodo et. In lacinia nisl ipsum, in facilisis nunc condimentum ac. Nullam sit amet libero leo. Nam fringilla turpis massa, vitae vestibulum lorem dapibus sit amet. Vivamus ac ultricies nibh. Nam vitae blandit odio, nec fermentum elit. Donec ac leo ut ligula interdum egestas vel quis mi.
