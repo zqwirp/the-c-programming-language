@@ -2,7 +2,7 @@
 
 ## Variables and Arithmetic Expressions
 
-Write a program that prints a table of Fahrenheit temperatures and their Celsius equivalents. [link](print_temperature.c)
+Write a program that prints a table of Fahrenheit temperatures and their Celsius equivalents. [print_temperature.c](print_temperature.c)
 
 ## Symbolic Constants
 
