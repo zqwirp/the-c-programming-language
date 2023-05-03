@@ -35,6 +35,11 @@ Here is a link to a resource that provides a brief explanation of why the type o
 - [https://stackoverflow.com/questions/32720934/confusion-about-int-char-and-eof-in-c](https://stackoverflow.com/questions/32720934/confusion-about-int-char-and-eof-in-c)
 - [https://stackoverflow.com/questions/8464030/using-int-for-character-types-when-comparing-with-eof?noredirect=1&lq=1](https://stackoverflow.com/questions/8464030/using-int-for-character-types-when-comparing-with-eof?noredirect=1&lq=1)
 - [https://stackoverflow.com/questions/8932582/how-can-i-generate-an-eof-or-an-ascii-0-in-a-visual-studio-debug-console](https://stackoverflow.com/questions/8932582/how-can-i-generate-an-eof-or-an-ascii-0-in-a-visual-studio-debug-console)
+- [https://www.includehelp.com/c/value-of-eof-in-c-programming-language.aspx](https://www.includehelp.com/c/value-of-eof-in-c-programming-language.aspx)
+
+In summary, the type of 'c' is 'int' because the value of 'EOF' is -1, which is outside the range of 'char'.
+
+`EOF` is a predefined constant in the standard library of C, which is commonly defined as -1. Therefore, the condition `(c = getchar()) != EOF` means "while `getchar()` does not return the value -1".
 
 ## Lorem Ipsum
 
