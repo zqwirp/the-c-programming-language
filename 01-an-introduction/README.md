@@ -39,7 +39,7 @@ Here is a link to a resource that provides a brief explanation of why the type o
 
 In summary, the type of 'c' is 'int' because the value of 'EOF' is -1, which is outside the range of 'char'.
 
-`EOF` is a **predefined constant** in the standard library of C, which is commonly defined as -1. Therefore, the condition `(c = getchar()) != EOF` means "while `getchar()` does not return the value -1".
+`EOF` is a **predefined constant** in the standard library of C, which is commonly **defined as -1**. Therefore, the condition `(c = getchar()) != EOF` means "while `getchar()` does not return the value -1".
 
 ## Lorem Ipsum
 
