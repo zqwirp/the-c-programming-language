@@ -1,31 +1,35 @@
 # An Introduction
 
+## Unsolved Exercises
+
+- Exercise 1-11. Write a program that prints its input one word per line.
+- Exercise 1-13. Write a program to print a histogram of the lengths of words in its input. It is easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging.
+- Exercise 1-14. Write a program to print a histogram of the frequencies of different characters in its input.
+-
+
 ## Variables and Arithmetic Expressions
 
 Write a program that prints a table of Fahrenheit temperatures and their Celsius equivalents. [print_temperature.c](print_temperature.c)
 
 ## Symbolic Constants
 
->A `#define` line defines a symbolic name or symbolic constant to be a particular string of characters
+> A `#define` line defines a symbolic name or symbolic constant to be a particular string of characters
 >
->```c
->#define NAME replacement_list
->```
+> ```c
+> #define NAME replacement_list
+> ```
 >
 
 ## Character Input and Output
 
->The standard library provides several functions for reading or writing one character at a time,
->of which getchar and putchar are the simplest. Each time it is called, getchar reads the
->next input character from a text stream and returns that as its value. That is, after
+> The standard library provides several functions for reading or writing one character at a time, of which getchar and putchar are the simplest. Each time it is called, getchar reads the next input character from a text stream and returns that as its value. That is, after
 >
->```c
->c = getchar(); // read a character
->putchar(c); // print the character
->```
+> ```c
+> c = getchar(); // read a character
+> putchar(c); // print the character
+> ```
 >
->the variable c contains the next character of input. The characters normally come from the
->keyboard; input from files is discussed in [Chapter 7](https://kremlin.cc/k&r.pdf).
+> the variable c contains the next character of input. The characters normally come from the keyboard; input from files is discussed in [Chapter 7](https://kremlin.cc/k&r.pdf).
 
 Example: [file_copy.c](file_copy.c)
 
@@ -41,6 +45,8 @@ In summary, the type of 'c' is 'int' because the value of 'EOF' is -1, which is 
 
 `EOF` is a **predefined constant** in the standard library of C, which is commonly **defined as -1**. Therefore, the condition `(c = getchar()) != EOF` means "while `getchar()` does not return the value -1".
 
-## Lorem Ipsum
+### `getchar() != EOF` value
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus ipsum, egestas vel elit et, euismod consequat purus. Pellentesque ultricies justo et scelerisque fermentum. Vivamus ultricies risus non magna elementum, eget malesuada orci fringilla. Phasellus eu turpis quis magna varius ullamcorper a a orci. Mauris bibendum et tellus laoreet mattis. Proin et eros suscipit, convallis ante sed, consequat elit. Nunc vestibulum, odio vitae elementum blandit, enim augue semper odio, at vestibulum felis dolor consectetur justo. Mauris in enim ante. Sed consequat ullamcorper urna, et eleifend elit commodo et. In lacinia nisl ipsum, in facilisis nunc condimentum ac. Nullam sit amet libero leo. Nam fringilla turpis massa, vitae vestibulum lorem dapibus sit amet. Vivamus ac ultricies nibh. Nam vitae blandit odio, nec fermentum elit. Donec ac leo ut ligula interdum egestas vel quis mi.
+The value from the expression `getchar() != EOF` after working with exercise 6 is found to be 1 if it evaluates to true.
+
+---
