@@ -2,14 +2,11 @@
 
 ## Unsolved Exercises
 
-- Exercise 1-11. Write a program that prints its input one word per line.
-- Exercise 1-13. Write a program to print a histogram of the lengths of words in its input. It is easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging.
-- Exercise 1-14. Write a program to print a histogram of the frequencies of different characters in its input.
--
+- on progress
 
 ## Variables and Arithmetic Expressions
 
-Write a program that prints a table of Fahrenheit temperatures and their Celsius equivalents. [print_temperature.c](print_temperature.c)
+Write a program that prints a table of Fahrenheit temperatures and their Celsius equivalents. [print_temperature.c](/01/examples/print_temperature.c)
 
 ## Symbolic Constants
 
