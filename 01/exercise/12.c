@@ -2,8 +2,15 @@
 #define IN 1
 #define OUT 0
 
-// Write a program that prints its input one word per line.
-void e_12() {
+/* Exercise 1-12. Write a program that prints its input one word per line. */
+void prints_input();
+
+int main() {
+  prints_input();
+  return 0;
+}
+
+void prints_input() {
   int c, nw, state;
   nw = 0;
   state = OUT;
@@ -14,8 +21,7 @@ void e_12() {
         state = OUT;
         putchar('\n');
       }
-    }
-    else {
+    } else {
       if (state == OUT) {
         state = IN;
         ++nw;
@@ -23,9 +29,4 @@ void e_12() {
       putchar(c);
     }
   }
-}
-
-int main() {
-
-  return 0;
 }

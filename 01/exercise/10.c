@@ -1,6 +1,15 @@
 #include <stdio.h>
 
-// Write a program to copy its input to its output, replacing each tab by \t, each backspace by \b, and each backslash by \\. This makes tabs and backspaces visible in an unambiguous way.
+/* Exercise 1-10. Write a program to copy its input to its output,
+  replacing each tab by \t, each backspace by \b, and each backslash by \\.
+  This makes tabs and backspaces visible in an unambiguous way. */
+void replace();
+
+int main() {
+  replace();
+  return 0;
+}
+
 void replace() {
   int c;
 
@@ -22,9 +31,4 @@ void replace() {
         putchar(c);
     }
   }
-}
-
-int main() {
-  replace();
-  return 0;
 }
