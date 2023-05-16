@@ -31,7 +31,7 @@ Write a program that prints a table of Fahrenheit temperatures and their Celsius
 >
 > the variable c contains the next character of input. The characters normally come from the keyboard; input from files is discussed in [Chapter 7](https://kremlin.cc/k&r.pdf).
 
-Example: [file_copy.c](file_copy.c)
+Example: [file_copy.c](/01/examples/file_copy.c)
 
 Here is a link to a resource that provides a brief explanation of why the type of 'c' is 'int' rather than 'char':
 
