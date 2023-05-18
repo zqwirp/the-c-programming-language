@@ -1,3 +1,6 @@
+/* Write a program to print all input lines
+  that are longer than 80 characters. */
+
 #include <stdio.h>
 #define MINLINE 80
 #define MAXLINE 1000
@@ -5,7 +8,6 @@
 int getline(char s[], int limit);
 void copy(char to[], char from[]);
 
-// Write a program to print all input lines that are longer than 80 characters.
 int main() {
   int len;
   char line[MAXLINE];
