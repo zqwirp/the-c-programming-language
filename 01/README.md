@@ -15,7 +15,6 @@ Write a program that prints a table of Fahrenheit temperatures and their Celsius
 > ```c
 > #define NAME replacement_list
 > ```
->
 
 ## Character Input and Output
 
