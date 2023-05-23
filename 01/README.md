@@ -1,9 +1,5 @@
 # An Introduction
 
-## Unsolved Exercises
-
-- on progress
-
 ## Variables and Arithmetic Expressions
 
 Write a program that prints a table of Fahrenheit temperatures and their Celsius equivalents. [print_temperature.c](/01/examples/print_temperature.c)
@@ -15,6 +11,8 @@ Write a program that prints a table of Fahrenheit temperatures and their Celsius
 > ```c
 > #define NAME replacement_list
 > ```
+
+here is [link](https://github.com/zqwirp/c-exercises/preprocessor.md#preprocessor) to my summary about preprocessor
 
 ## Character Input and Output
 
