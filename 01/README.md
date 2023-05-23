@@ -12,7 +12,7 @@ Write a program that prints a table of Fahrenheit temperatures and their Celsius
 > #define NAME replacement_list
 > ```
 
-here is [link](https://github.com/zqwirp/c-exercises/blob/main/preprocessor.md) to my summary about preprocessor
+here is [link](https://github.com/zqwirp/c-exercises/blob/main/preprocessor.md#preprocessor) to my summary about preprocessor
 
 ## Character Input and Output
 
