@@ -36,9 +36,6 @@ int getline(char *s) {
     s[i] = c;
   }
 
-  // if (c == '\n') {
-  //   s[i++] = c;
-  // }
   s[i] = '\0';
 
   return i;
