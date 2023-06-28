@@ -1,13 +1,15 @@
 #include <stdio.h>
 #define MAXLINE 1000
 
-int getline(char line[], int max) {
+// what if there is 2 max line
+
+int getline(char line[], int limit) {
   int c, i;
 
-  // max = 1000
-  // max - 1 = 999
+  // limit = 1000
+  // limit - 1 = 999
   // i < 999 which until 998 because 999 must be \0
-  for (i = 0; i < max - 1 && (c = getchar()) != EOF && c != '\n'; i++) {
+  for (i = 0; i < limit - 1 && (c = getchar()) != EOF && c != '\n'; i++) {
     line[i] = c;
   }
 
@@ -23,8 +25,7 @@ int getline(char line[], int max) {
 void copy_line(char to[], char from[]) {
   int i = 0;
 
-  while (from[i]) {
-    to[i] = from[i];
+  while ((to[i] = from[i]) != '\0') {
     i++;
   }
 }
